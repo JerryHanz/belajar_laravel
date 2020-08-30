@@ -38,7 +38,7 @@
         <a class="nav-link" data-widget="pushmenu" href="{{URL::asset('#') }}" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="{{URL::asset('index3.php') }}" class="nav-link">Home</a>
+        <a href="{{URL::asset('index3.html') }}" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="{{URL::asset('#') }}" class="nav-link">Contact</a>
@@ -156,7 +156,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="{{URL::asset('index3.php') }}" class="brand-link">
+    <a href="{{URL::asset('index3.html') }}" class="brand-link">
       <img src="{{URL::asset('dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
@@ -189,19 +189,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('./index.php') }}" class="nav-link active">
+                <a href="{{URL::asset('./index.html') }}" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v1</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('./index2.php') }}" class="nav-link">
+                <a href="{{URL::asset('./index2.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v2</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('./index3.php') }}" class="nav-link">
+                <a href="{{URL::asset('./index3.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v3</p>
                 </a>
@@ -209,7 +209,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="{{URL::asset('pages/widgets.php') }}" class="nav-link">
+            <a href="{{URL::asset('pages/widgets.html') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Widgets
@@ -228,43 +228,43 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/layout/top-nav.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/layout/top-nav.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Top Navigation</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/layout/top-nav-sidebar.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/layout/top-nav-sidebar.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Top Navigation + Sidebar</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/layout/boxed.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/layout/boxed.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Boxed</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/layout/fixed-sidebar.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/layout/fixed-sidebar.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Fixed Sidebar</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/layout/fixed-topnav.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/layout/fixed-topnav.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Fixed Navbar</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/layout/fixed-footer.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/layout/fixed-footer.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Fixed Footer</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/layout/collapsed-sidebar.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/layout/collapsed-sidebar.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Collapsed Sidebar</p>
                 </a>
@@ -281,19 +281,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/charts/chartjs.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/charts/chartjs.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>ChartJS</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/charts/flot.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/charts/flot.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Flot</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/charts/inline.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/charts/inline.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Inline</p>
                 </a>
@@ -310,49 +310,49 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/general.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/general.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>General</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/icons.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/icons.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Icons</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/buttons.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/buttons.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Buttons</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/sliders.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/sliders.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Sliders</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/modals.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/modals.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Modals & Alerts</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/navbar.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/navbar.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Navbar & Tabs</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/timeline.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/timeline.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Timeline</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/UI/ribbons.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/UI/ribbons.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ribbons</p>
                 </a>
@@ -369,25 +369,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/forms/general.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/forms/general.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>General Elements</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/forms/advanced.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/forms/advanced.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Advanced Elements</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/forms/editors.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/forms/editors.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editors</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/forms/validation.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/forms/validation.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Validation</p>
                 </a>
@@ -404,19 +404,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/tables/simple.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/tables/simple.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simple Tables</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/tables/data.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/tables/data.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataTables</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/tables/jsgrid.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/tables/jsgrid.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>jsGrid</p>
                 </a>
@@ -425,7 +425,7 @@
           </li>
           <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
-            <a href="{{URL::asset('pages/calendar.php') }}" class="nav-link">
+            <a href="{{URL::asset('pages/calendar.html') }}" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
                 Calendar
@@ -434,7 +434,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{URL::asset('pages/gallery.php') }}" class="nav-link">
+            <a href="{{URL::asset('pages/gallery.html') }}" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
@@ -451,19 +451,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/mailbox/mailbox.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/mailbox/mailbox.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Inbox</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/mailbox/compose.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/mailbox/compose.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Compose</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/mailbox/read-mail.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/mailbox/read-mail.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Read</p>
                 </a>
@@ -480,49 +480,49 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/invoice.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/invoice.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Invoice</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/profile.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/profile.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Profile</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/e-commerce.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/e-commerce.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>E-commerce</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/projects.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/projects.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Projects</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/project-add.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/project-add.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Project Add</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/project-edit.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/project-edit.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Project Edit</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/project-detail.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/project-detail.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Project Detail</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/contacts.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/contacts.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Contacts</p>
                 </a>
@@ -539,73 +539,73 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/login.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/login.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Login</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/register.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/register.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Register</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/forgot-password.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/forgot-password.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Forgot Password</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/recover-password.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/recover-password.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Recover Password</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/lockscreen.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/lockscreen.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lockscreen</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/legacy-user-menu.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/legacy-user-menu.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Legacy User Menu</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/language-menu.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/language-menu.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Language Menu</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/404.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/404.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Error 404</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/500.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/500.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Error 500</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/pace.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/pace.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pace</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('pages/examples/blank.php') }}" class="nav-link">
+                <a href="{{URL::asset('pages/examples/blank.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Blank Page</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{URL::asset('starter.php') }}" class="nav-link">
+                <a href="{{URL::asset('starter.html') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Starter Page</p>
                 </a>
