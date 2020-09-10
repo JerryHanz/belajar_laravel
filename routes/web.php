@@ -17,5 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/admin-lte', function () {
+    return view('index');
+});
+
 Route::get('/admin', 'AdminController@index');
 Route::get('/admin-lte','AdminLTEController@index');

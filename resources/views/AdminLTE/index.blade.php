@@ -138,10 +138,10 @@
                 <div class="card-tools">
                   <ul class="nav nav-pills ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link active" href="{{URL::asset('#revenue-chart" data-toggle="tab">Area</a>
+                      <a class="nav-link active" href="{{URL::asset('#revenue-chart') }}" data-toggle="tab">Area</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="{{URL::asset('#sales-chart" data-toggle="tab">Donut</a>
+                      <a class="nav-link" href="{{URL::asset('#sales-chart') }}" data-toggle="tab">Donut</a>
                     </li>
                   </ul>
                 </div>

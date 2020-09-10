@@ -459,7 +459,7 @@
           </li>
           <li class="nav-header">MISCELLANEOUS</li>
           <li class="nav-item">
-            <a href="{{URL::asset('https://adminlte.io/docs/3.0" class="nav-link">
+            <a href="{{URL::asset('https://adminlte.io/docs/3.0') }}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Documentation</p>
             </a>
