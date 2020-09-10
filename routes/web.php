@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', 'AdminController@index');
-Route::get('/AdminLTE','AdminLTEController@index');
+Route::get('/admin-lte','AdminLTEController@index');
