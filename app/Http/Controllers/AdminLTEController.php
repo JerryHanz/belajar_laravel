@@ -8,6 +8,10 @@ class AdminLTEController extends Controller
 {
     //
     public function index(){
-        return view ('AdminLTE/index');
+        $judul = "Admin Page";
+        $fname = "Avian";
+        $lname = "Hermana";
+        
+        return view ('AdminLTE/index',['judul' => $judul, 'fname' => $fname, 'lname' => $lname]);
     }
 }
